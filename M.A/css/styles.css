@@ -1,0 +1,20 @@
+/* Reset minimal */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; line-height: 1.6; color: #222; }
+.container { max-width: 1000px; margin: 0 auto; padding: 1rem; }
+.site-header { background: #0b74da; color: #fff; }
+.site-header .container { display: flex; align-items: center; justify-content: space-between; }
+.logo { font-size: 1.25rem; }
+.nav a { color: #fff; text-decoration: none; margin-left: 1rem; }
+.hero { padding: 4rem 1rem; text-align: center; background: linear-gradient(180deg, #f6f9ff, #fff); }
+.hero h2 { font-size: 2rem; margin-bottom: 0.5rem; }
+.btn { display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: #0b74da; color: #fff; text-decoration: none; border-radius: 6px; }
+.features { padding: 2rem 1rem; }
+.features ul { list-style: disc; margin-left: 1.25rem; }
+.contact { padding: 2rem 1rem; background: #fafafa; }
+.site-footer { text-align: center; padding: 1rem 0; font-size: 0.9rem; }
+
+@media (max-width: 600px) {
+  .site-header .container { flex-direction: column; gap: 0.5rem; }
+  .nav a { margin-left: 0.5rem; }
+}
